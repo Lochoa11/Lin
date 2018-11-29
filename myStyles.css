@@ -1,0 +1,94 @@
+body {
+  background-color: #b1f0a8;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: black;
+  font-family: Dancing Script, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-family: Varela Round;
+}
+
+a {
+  color: #2ab400;
+  font-family: Dancing Script Arial, Helvetica, sans-serif;
+}
+
+a.navbar-brand {
+  margin: -10px;
+  font-size: 50px;
+}
+
+ul {
+  text-align: center;
+  font-family: Varela Round, Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Varela Round;
+}
+
+li {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.navbar-light .navbar-brand {
+  color: #b1f0a8;
+  font-family: Dancing Script;
+}
+
+.nav {
+  background-color: #223b2b;
+}
+
+.bg-light {
+  background-color: #223b2b;
+}
+
+.navbar {
+  background-color: #223b2b;
+}
+
+#myCarousel {
+  margin-top: 50px;
+}
+
+#clipArt {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.card-header {
+  background-color: #9dd7b2;
+}
+
+.pushDown {
+  margin-top: 81px;
+}
+
+.card-body {
+  background-color: #d5eede;
+}
+
+.pushRight {
+  margin-left: 20px;
+}
+
+.navText {
+  color: #b1f0a8;
+}
+
+.spaceOut {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=myStyles.css.map */
