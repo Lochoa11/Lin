@@ -1,0 +1,183 @@
+$textColor:#2ab400;
+$backgroundColor:#b1f0a8;
+$mainFont: Dancing Script;
+$secondaryFont: Varela Round;
+$navbarColor: #223b2b;
+$navbarText:#b1f0a8;
+$innerHeaders:#9dd7b2;
+$innerBodies: #d5eede;
+body{
+    background-color: $backgroundColor;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: black;
+    font-family: $mainFont, Arial, Helvetica, sans-serif;
+}
+h4{
+    font-family: $secondaryFont;
+}
+a{
+    color: $textColor;
+    font-family: $mainFont Arial, Helvetica, sans-serif;
+}
+a.navbar-brand{
+    margin: -10px;
+    font-size: 50px;
+}
+ul{
+    text-align: center;
+    font-family: $secondaryFont, Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: $secondaryFont;
+}
+li{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.navbar-light .navbar-brand{
+    color: $navbarText;
+    font-family: $mainFont;
+}
+.nav{
+    background-color: $navbarColor;
+}
+.bg-light{
+    background-color: $navbarColor; 
+}
+.navbar{
+    background-color: $navbarColor;
+}
+#myCarousel{
+    margin-top: 50px;
+}
+
+#clipArt{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-header{
+    background-color: $innerHeaders;
+}
+
+.pushDown{
+    margin-top: 100px;
+}
+.card-body{
+   background-color: $innerBodies;
+}
+
+.pushRight{
+    margin-left: 20px;
+}
+
+.navText{
+    color: $navbarText
+}
+
+.spaceOut{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+// home
+// parallax
+
+.block{
+    // background-color: $backgroundColor;
+    // padding: 1%;
+    // text-align:justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.text{
+    padding: 60px; width:800px; margin:0 auto;
+}
+.parallax-one{
+    // background-image: url(/images/photosOfMe/photo_2.png);
+    // background-size: cover;
+    // -moz-background-size: cover;
+    // pen
+    padding-top: 400px; 
+    padding-bottom: 400px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(/images/photosOfMe/photo_2.JPG); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+.parallax-one H1{
+    color: white;
+}
+
+.parallax-two{
+    // background-image: url(/images/photosOfMe/photo_2.png);
+    // background-size: cover;
+    // -moz-background-size: cover;
+    // pen
+    padding-top: 400px; 
+    padding-bottom: 400px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(/images/photosOfMe/photo_3.JPG); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+.parallax-two H1{
+    color: white;
+}
+
+.parallax-three{
+    // background-image: url(/images/photosOfMe/photo_2.png);
+    // background-size: cover;
+    // -moz-background-size: cover;
+    // pen
+    padding-top: 400px; 
+    padding-bottom: 400px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(/images/photosOfMe/photo_4.JPG); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
+.parallax-three H1{
+    color: white;
+}
+
+
+.pushdownsignup{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.bioSize {    
+    width: 30%;
+}

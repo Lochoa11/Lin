@@ -1,0 +1,1 @@
+<h4>Photos taken here are all the same aspect ratio </h4>
